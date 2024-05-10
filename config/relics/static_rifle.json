@@ -1,0 +1,61 @@
+{
+  "ability": {
+    "abilities": {
+      "bzzshot": {
+        "requiredPoints": 1,
+        "requiredLevel": 0,
+        "maxLevel": 5,
+        "stats": {
+          "damage": {
+            "minInitialValue": 3.0,
+            "maxInitialValue": 5.0,
+            "upgradeOperation": "MULTIPLY_BASE",
+            "upgradeModifier": 1.5
+          },
+          "enemy_count": {
+            "minInitialValue": 3.0,
+            "maxInitialValue": 3.0,
+            "upgradeOperation": "ADD",
+            "upgradeModifier": 1.0
+          },
+          "static_duration": {
+            "minInitialValue": 2.0,
+            "maxInitialValue": 3.0,
+            "upgradeOperation": "MULTIPLY_BASE",
+            "upgradeModifier": 2.0
+          }
+        }
+      },
+      "forcefield": {
+        "requiredPoints": 1,
+        "requiredLevel": 0,
+        "maxLevel": 3,
+        "stats": {
+          "duration": {
+            "minInitialValue": 8.0,
+            "maxInitialValue": 10.0,
+            "upgradeOperation": "MULTIPLY_BASE",
+            "upgradeModifier": 1.5
+          },
+          "static_probability": {
+            "minInitialValue": 1.0,
+            "maxInitialValue": 1.0,
+            "upgradeOperation": "MULTIPLY_TOTAL",
+            "upgradeModifier": 5.0
+          },
+          "radius": {
+            "minInitialValue": 3.0,
+            "maxInitialValue": 5.0,
+            "upgradeOperation": "MULTIPLY_BASE",
+            "upgradeModifier": 0.6
+          }
+        }
+      }
+    }
+  },
+  "leveling": {
+    "initialCost": 150,
+    "maxLevel": 8,
+    "step": 150
+  }
+}

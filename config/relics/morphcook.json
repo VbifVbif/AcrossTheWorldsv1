@@ -1,0 +1,23 @@
+{
+  "ability": {
+    "abilities": {
+      "passive_smoking": {
+        "requiredPoints": 1,
+        "requiredLevel": 0,
+        "maxLevel": 1,
+        "stats": {}
+      },
+      "fleshfeeding": {
+        "requiredPoints": 1,
+        "requiredLevel": 0,
+        "maxLevel": 1,
+        "stats": {}
+      }
+    }
+  },
+  "leveling": {
+    "initialCost": 0,
+    "maxLevel": 0,
+    "step": 0
+  }
+}

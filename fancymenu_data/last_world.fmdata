@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/Michael/AppData/Roaming/.minecraft/home/Forge-1.20/saves/В поисках сида 2
+}
+

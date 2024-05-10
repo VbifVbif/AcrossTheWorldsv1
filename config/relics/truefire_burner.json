@@ -1,0 +1,37 @@
+{
+  "ability": {
+    "abilities": {
+      "eruption": {
+        "requiredPoints": 1,
+        "requiredLevel": 0,
+        "maxLevel": 5,
+        "stats": {
+          "radius": {
+            "minInitialValue": 2.0,
+            "maxInitialValue": 3.0,
+            "upgradeOperation": "ADD",
+            "upgradeModifier": 2.0
+          }
+        }
+      },
+      "flamous_takeoff": {
+        "requiredPoints": 1,
+        "requiredLevel": 0,
+        "maxLevel": 5,
+        "stats": {
+          "strength": {
+            "minInitialValue": 2.0,
+            "maxInitialValue": 5.0,
+            "upgradeOperation": "ADD",
+            "upgradeModifier": 3.0
+          }
+        }
+      }
+    }
+  },
+  "leveling": {
+    "initialCost": 100,
+    "maxLevel": 5,
+    "step": 50
+  }
+}

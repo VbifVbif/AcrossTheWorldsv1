@@ -1,0 +1,37 @@
+{
+  "ability": {
+    "abilities": {
+      "emergency_heating": {
+        "requiredPoints": 1,
+        "requiredLevel": 5,
+        "maxLevel": 3,
+        "stats": {
+          "cooldown": {
+            "minInitialValue": 20.0,
+            "maxInitialValue": 20.0,
+            "upgradeOperation": "ADD",
+            "upgradeModifier": -5.0
+          }
+        }
+      },
+      "comfort": {
+        "requiredPoints": 1,
+        "requiredLevel": 0,
+        "maxLevel": 3,
+        "stats": {
+          "regeneration_level": {
+            "minInitialValue": 1.0,
+            "maxInitialValue": 1.0,
+            "upgradeOperation": "ADD",
+            "upgradeModifier": 1.0
+          }
+        }
+      }
+    }
+  },
+  "leveling": {
+    "initialCost": 10,
+    "maxLevel": 10,
+    "step": 50
+  }
+}

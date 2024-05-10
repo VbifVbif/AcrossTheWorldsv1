@@ -1,0 +1,46 @@
+
+#Settings about global rules.
+["Rule Settings"]
+
+	#Settings about spiritual roots.
+	["Rule Settings"."Spiritual Roots Settings"]
+		#The chance that players have no spiritual root.
+		#Range: 0.0 ~ 1.0
+		NoRootChance = 0.0
+		#The chance that players have one spiritual root.
+		#Range: 0.0 ~ 1.0
+		OneRootChance = 0.1
+		#The chance that players have two spiritual roots.
+		#Range: 0.0 ~ 1.0
+		TwoRootChance = 0.2
+		#The chance that players have three spiritual roots.
+		#Range: 0.0 ~ 1.0
+		ThreeRootChance = 0.3
+		#The chance that players have four spiritual roots.
+		#Range: 0.0 ~ 1.0
+		FourRootChance = 0.3
+		#The weight that players have metal spiritual root.
+		#Range: 0 ~ 1000000
+		MetalRootChance = 100
+		#The weight that players have wood spiritual root.
+		#Range: 0 ~ 1000000
+		WoodRootChance = 100
+		#The weight that players have water spiritual root.
+		#Range: 0 ~ 1000000
+		WaterRootChance = 100
+		#The weight that players have fire spiritual root.
+		#Range: 0 ~ 1000000
+		FireRootChance = 100
+		#The weight that players have earth spiritual root.
+		#Range: 0 ~ 1000000
+		EarthRootChance = 100
+		#The weight that players have spirit spiritual root.
+		#Range: 0 ~ 1000000
+		SpiritRootChance = 40
+
+#Settings about blocks.
+["Block Settings"]
+	#How long will furnace explode when it went wrong.
+	#Range: 0 ~ 1000000
+	FurnaceExplodeCD = 200
+

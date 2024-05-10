@@ -1,0 +1,198 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4262990AB8F14421"
+	group: ""
+	id: "4262990AB8F14421"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:hither_thither_wand"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:portal"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "3B9E9F8DDE0A135F"
+			invisible: true
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage add @p magic"
+				elevate_perms: true
+				id: "4179FA33A3D7FE83"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "1BCB56D19510F37A"
+				type: "dimension"
+			}]
+			title: "Мир Магии"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			hide: true
+			icon: "minecraft:sculk_sensor"
+			id: "580E0189CE77BB40"
+			invisible: true
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage add @p sculk"
+				elevate_perms: true
+				id: "0429E9492F584B13"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "16D9891C9A807339"
+				type: "dimension"
+			}]
+			title: "Другая Сторона"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "48321877BB3F9711"
+			invisible: true
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage add @p nether"
+				elevate_perms: true
+				id: "76720894503F7001"
+				ignore_reward_blocking: true
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "6606587D61DEB074"
+				title: "Незер"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			icon: "minecraft:glowstone"
+			id: "0E9EB8E7AC4946F5"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage add @p aether"
+				elevate_perms: true
+				id: "2A834CC50AE15E83"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "5FDD534B1519571A"
+				title: "Верхний Мир"
+				type: "dimension"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "0DE4FD049D115101"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage add @p twilight"
+				elevate_perms: true
+				id: "29AAF7D74105EEFD"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "12859E0DF2D89AC8"
+				title: "Сумерки 2"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			icon: "minecraft:ender_eye"
+			id: "469169A88ED04B56"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage add @p end"
+				elevate_perms: true
+				id: "2572FE8968D58274"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "31F10D8D237BBF15"
+				type: "dimension"
+			}]
+			title: "Край"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "theabyss:loran_energy"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0BE4A9C6F7429EB6"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage add @p abyss"
+				elevate_perms: true
+				id: "2832EAE0D0CA690E"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "theabyss:the_abyss"
+				id: "0E60460453EDEEE3"
+				title: "Пустота"
+				type: "dimension"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			icon: "boh:voodoo_doll"
+			id: "37C73B82DC0743B2"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage add @p horror"
+				elevate_perms: true
+				id: "5179858AD2F7C2A0"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "limbo:limbo_dim"
+				id: "4E5BB9AD9A7FE82C"
+				title: "Страхи"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+	]
+	title: "Исследование Измерений"
+}

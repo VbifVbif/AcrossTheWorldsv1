@@ -1,0 +1,49 @@
+{
+  "ability": {
+    "abilities": {
+      "whirl_swirl": {
+        "requiredPoints": 1,
+        "requiredLevel": 0,
+        "maxLevel": 3,
+        "stats": {
+          "drowning_speed": {
+            "minInitialValue": 1.0,
+            "maxInitialValue": 2.0,
+            "upgradeOperation": "ADD",
+            "upgradeModifier": 1.0
+          },
+          "radius": {
+            "minInitialValue": 2.0,
+            "maxInitialValue": 4.0,
+            "upgradeOperation": "MULTIPLY_BASE",
+            "upgradeModifier": 0.3
+          }
+        }
+      },
+      "blob_a_bubble": {
+        "requiredPoints": 1,
+        "requiredLevel": 0,
+        "maxLevel": 5,
+        "stats": {
+          "duration": {
+            "minInitialValue": 3.0,
+            "maxInitialValue": 5.0,
+            "upgradeOperation": "MULTIPLY_BASE",
+            "upgradeModifier": 1.2
+          },
+          "cooldown": {
+            "minInitialValue": 6.0,
+            "maxInitialValue": 10.0,
+            "upgradeOperation": "MULTIPLY_BASE",
+            "upgradeModifier": 0.5
+          }
+        }
+      }
+    }
+  },
+  "leveling": {
+    "initialCost": 100,
+    "maxLevel": 10,
+    "step": 75
+  }
+}

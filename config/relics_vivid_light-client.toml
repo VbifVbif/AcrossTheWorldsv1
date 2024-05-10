@@ -1,0 +1,4 @@
+#Forcefield Particle Count (DEF:10)
+#Particle count when drawing the sphere of Forcefield
+VAL = 10
+
